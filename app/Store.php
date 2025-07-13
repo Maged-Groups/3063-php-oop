@@ -67,12 +67,12 @@ class Store
 
     function add_invoice($items)
     {
-        // Class level
+        // Class level properties
         self::$stock -= $items;
         self::$total_sales += $items * self::$stock;
         self::$sold_items += $items;
 
-        // Object Level
+        // Object Level properties
 
         // decrease the stock
         $this->branch_stock -= $items;

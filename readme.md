@@ -10,6 +10,12 @@
 git init
 ```
 
+# Configure user information
+```
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+```
+
 ## Add a file to the staging area
 ```
 git add <filename>

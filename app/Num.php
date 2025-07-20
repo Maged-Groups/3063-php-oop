@@ -3,12 +3,21 @@ namespace App;
 
 class Num
 {
-    public static function sum($num1, $num2)
+    /**
+     * @param $num1
+     * @param $num2
+     * @return int
+     */
+    public static function sum($num1, $num2): int
     {
-
+        return $num1 + $num2;
     }
 
-    public static function isNumber($n)
+    /**
+     * @param $n
+     * @return bool
+     */
+    public static function isNumber($n): bool
     {
         return is_numeric($n);
     }

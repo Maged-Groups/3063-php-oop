@@ -102,6 +102,10 @@ class Store
         $this->branch_return_items += $items;
     }
 
+    /**
+     * Get the value of branch_name
+     */
+
     function report()
     {
         echo '<h2>Store: ' . $this->branch_name . '</h2>';

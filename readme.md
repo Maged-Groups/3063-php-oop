@@ -66,3 +66,7 @@ git push -u origin <branch-name>
 git push
 ```
 
+## git clone repo url
+```
+git clone <remote-repository-url>
+```

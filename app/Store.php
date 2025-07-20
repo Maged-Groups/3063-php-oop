@@ -4,7 +4,7 @@ namespace App;
 class Store
 {
 
-    //  Class Properties
+    // My  Class Properties
     private static $stores = 0;
     private static $stock = 0;
     private static $total_sales = 0;

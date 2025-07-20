@@ -33,3 +33,10 @@ $alex1->report();
 
 
 Store::general_report();
+Store::general_report();
+Store::general_report();
+Store::general_report();
+Store::general_report();
+Store::general_report();
+Store::general_report();
+Store::general_report();
